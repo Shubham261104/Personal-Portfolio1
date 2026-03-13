@@ -74,7 +74,7 @@
 (function () {
   const el = document.getElementById('rotatingText');
   if (!el) return;
-  const phrases = ['Shubham Kumar', 'a Developer', 'a Designer', 'a Problem Solver'];
+  const phrases = ['Shubham Kumar', 'a Full-Stack Web Developer', 'a Website Designer', 'a Problem Solver'];
   let index = 0;
   function cycle() {
     const next = phrases[index % phrases.length];
